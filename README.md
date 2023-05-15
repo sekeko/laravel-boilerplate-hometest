@@ -12,7 +12,24 @@ Note: Make sure you have hidden files shown on your system.
 #### Composer
 Laravel project dependencies are managed through the PHP Composer tool. The first step is to install the depencencies by navigating into your project in terminal and typing this command:
 
+```console
+composer install
+```
 
+#### NPM/Yarn
+In order to install the Javascript packages for frontend development, you will need the Node Package Manager, and optionally the Yarn Package Manager by Facebook (Recommended)
+
+If you only have NPM installed you have to run this command from the root of the project:
+
+```console
+npm install
+```
+
+If you have Yarn installed, run this instead from the root of the project:
+
+```console
+yarn
+```
 
 ### Demo Credentials
 
